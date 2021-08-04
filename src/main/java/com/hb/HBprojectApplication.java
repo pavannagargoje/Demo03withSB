@@ -11,7 +11,7 @@ public class HBprojectApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context= SpringApplication.run(HBprojectApplication.class, args);
-		
+		// changes to SCL-134 done
 		context.close();
 	}
 
